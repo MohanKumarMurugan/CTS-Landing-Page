@@ -305,59 +305,66 @@
 
   <!-- Testimonials Section -->
 
-  <section class="py-16 px-4">
+  <section class="py-16 px-4" style="position:relative;">
     <div class="text-center mb-10">
       <p class="testimonial-subheading">Testimonial</p>
       <h2 class="testimonial-heading">What Our Customers Are Saying</h2>
     </div>
 
-    <!-- Horizontally scrollable testimonial cards -->
-    <div class="testimonial-scroll">
-      <!-- Testimonial Card 1 -->
-      <div class="testimonial-card" style="border: 1px solid #707070;">
-        <div style="margin-bottom: 0.5rem;">
-          <img src="asstes/image/quote.png" alt="Quote" class="w-6 h-6" />
-        </div>
-        <p class="mb-4 text-sm md:text-base">
-          I have known Dr. Prakash Selvam for the past 15 years.. My mom's knee replacement surgeries for both the legs
-          went on well.. He is top class doctor and a down to earth person..I've recommended my friends and relatives
-          for all kinds of orthopaedic
-        </p>
-        <p class="font-semibold">Suji Ramkumar</p>
+    <!-- Scroll Buttons Group -->
+    <div style="position: relative;">
+      <div style="position:absolute;top:-50px;right:10px;z-index:10;display:flex;gap:8px;">
+        <button id="testimonial-scroll-left" aria-label="Scroll testimonials left" style="background:#fff;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.12);width:40px;height:40px;display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;"><svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'><path stroke='#6A48FF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M15 6l-6 6 6 6'/></svg></button>
+        <button id="testimonial-scroll-right" aria-label="Scroll testimonials right" style="background:#fff;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.12);width:40px;height:40px;display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;"><svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'><path stroke='#6A48FF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M9 6l6 6-6 6'/></svg></button>
       </div>
-      <!-- Testimonial Card 2 -->
-      <div class="testimonial-card" style="border: 1px solid #707070;">
-        <div style="margin-bottom: 0.5rem;">
-          <img src="asstes/image/quote.png" alt="Quote" class="w-6 h-6" />
+      <!-- Horizontally scrollable testimonial cards -->
+      <div class="testimonial-scroll">
+        <!-- Testimonial Card 1 -->
+        <div class="testimonial-card" style="border: 1px solid #707070;">
+          <div style="margin-bottom: 0.5rem;">
+            <img src="asstes/image/quote.png" alt="Quote" class="w-6 h-6" />
+          </div>
+          <p class="mb-4 text-sm md:text-base">
+            I have known Dr. Prakash Selvam for the past 15 years.. My mom's knee replacement surgeries for both the legs
+            went on well.. He is top class doctor and a down to earth person..I've recommended my friends and relatives
+            for all kinds of orthopaedic
+          </p>
+          <p class="font-semibold">Suji Ramkumar</p>
         </div>
-        <p class="mb-4 text-sm md:text-base">
-          Dr. Prakash Selvam is truly a God to me. He has done a spine surgery for my husband in such a perfect way and
-          he made us feel the surgery very simple. Ambience was very good. Thank you CTS
-        </p>
-        <p class="font-semibold">Lakshmi jana</p>
-      </div>
-      <!-- Testimonial Card 3 -->
-      <div class="testimonial-card" style="border: 1px solid #707070;">
-        <div style="margin-bottom: 0.5rem;">
-          <img src="asstes/image/quote.png" alt="Quote" class="w-6 h-6" />
+        <!-- Testimonial Card 2 -->
+        <div class="testimonial-card" style="border: 1px solid #707070;">
+          <div style="margin-bottom: 0.5rem;">
+            <img src="asstes/image/quote.png" alt="Quote" class="w-6 h-6" />
+          </div>
+          <p class="mb-4 text-sm md:text-base">
+            Dr. Prakash Selvam is truly a God to me. He has done a spine surgery for my husband in such a perfect way and
+            he made us feel the surgery very simple. Ambience was very good. Thank you CTS
+          </p>
+          <p class="font-semibold">Lakshmi jana</p>
         </div>
-        <p class="mb-4 text-sm md:text-base">
-          Had a fast recovery for my knee surgery done here at CTS hospital. Felt like home here. Good hospitality was
-          offered here. I would like to thank Dr. Prakash Selvam sir and team for the great job.
-        </p>
-        <p class="font-semibold">Vikram Singh</p>
-      </div>
-      <!-- Testimonial Card 4 -->
-      <div class="testimonial-card" style="border: 1px solid #707070;">
-        <div style="margin-bottom: 0.5rem;">
-          <img src="asstes/image/quote.png" alt="Quote" class="w-6 h-6" />
+        <!-- Testimonial Card 3 -->
+        <div class="testimonial-card" style="border: 1px solid #707070;">
+          <div style="margin-bottom: 0.5rem;">
+            <img src="asstes/image/quote.png" alt="Quote" class="w-6 h-6" />
+          </div>
+          <p class="mb-4 text-sm md:text-base">
+            Had a fast recovery for my knee surgery done here at CTS hospital. Felt like home here. Good hospitality was
+            offered here. I would like to thank Dr. Prakash Selvam sir and team for the great job.
+          </p>
+          <p class="font-semibold">Vikram Singh</p>
         </div>
-        <p class="mb-4 text-sm md:text-base">
-          I have known Dr. Prakash Selvam for the past 15 years.. My mom's knee replacement surgeries for both the legs
-          went on well.. He is top class doctor and a down to earth person..I've recommended my friends and relatives
-          for all kinds of orthopaedic
-        </p>
-        <p class="font-semibold">Suji Ramkumar</p>
+        <!-- Testimonial Card 4 -->
+        <div class="testimonial-card" style="border: 1px solid #707070;">
+          <div style="margin-bottom: 0.5rem;">
+            <img src="asstes/image/quote.png" alt="Quote" class="w-6 h-6" />
+          </div>
+          <p class="mb-4 text-sm md:text-base">
+            I have known Dr. Prakash Selvam for the past 15 years.. My mom's knee replacement surgeries for both the legs
+            went on well.. He is top class doctor and a down to earth person..I've recommended my friends and relatives
+            for all kinds of orthopaedic
+          </p>
+          <p class="font-semibold">Suji Ramkumar</p>
+        </div>
       </div>
     </div>
   </section>
@@ -502,6 +509,7 @@
       let scrollStep = 1; // px per frame
       let autoScrollActive = true;
       let maxScroll = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+      let autoScrollTimeout;
 
       function autoScroll() {
         if (!autoScrollActive) return;
@@ -520,6 +528,40 @@
       });
       // Start auto-scroll
       requestAnimationFrame(autoScroll);
+
+      // Scroll Buttons
+      const scrollRightBtn = document.getElementById('testimonial-scroll-right');
+      const scrollLeftBtn = document.getElementById('testimonial-scroll-left');
+      function pauseAndResumeAutoScroll() {
+        autoScrollActive = false;
+        clearTimeout(autoScrollTimeout);
+        autoScrollTimeout = setTimeout(() => {
+          autoScrollActive = true;
+          requestAnimationFrame(autoScroll);
+        }, 2000);
+      }
+      if (scrollRightBtn) {
+        scrollRightBtn.addEventListener('click', function() {
+          const card = scrollContainer.querySelector('.testimonial-card');
+          if (card) {
+            const cardStyle = window.getComputedStyle(card);
+            const cardWidth = card.getBoundingClientRect().width + parseFloat(cardStyle.marginRight || 0) + parseFloat(cardStyle.marginLeft || 0);
+            scrollContainer.scrollBy({ left: cardWidth, behavior: 'smooth' });
+            pauseAndResumeAutoScroll();
+          }
+        });
+      }
+      if (scrollLeftBtn) {
+        scrollLeftBtn.addEventListener('click', function() {
+          const card = scrollContainer.querySelector('.testimonial-card');
+          if (card) {
+            const cardStyle = window.getComputedStyle(card);
+            const cardWidth = card.getBoundingClientRect().width + parseFloat(cardStyle.marginRight || 0) + parseFloat(cardStyle.marginLeft || 0);
+            scrollContainer.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+            pauseAndResumeAutoScroll();
+          }
+        });
+      }
     });
   </script>
 
