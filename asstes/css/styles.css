@@ -353,13 +353,13 @@ img {
 .why-bar-marquee {
   display: inline-block;
   white-space: nowrap;
-  min-width: 100%;
+  min-width: 200%; /* Make sure it's at least double width */
   animation: whyBarMarquee 18s linear infinite;
 }
 
 @keyframes whyBarMarquee {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 .benefits-grid {
